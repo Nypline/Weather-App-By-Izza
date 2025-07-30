@@ -5,7 +5,7 @@ export default function App() {
   const [location, setLocation] = useState("Jakarta");
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
-  const [date, setDate] = useState({
+  const [date] = useState({
     day: "Monday",
     fullDate: "04 September",
   });
